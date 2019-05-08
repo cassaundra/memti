@@ -6,7 +6,7 @@
 # ----------------------------
 
 NAME        ?= MEMTI
-COMPRESSED  ?= YES
+COMPRESSED  ?= NO
 ICON        ?= iconc.png
 DESCRIPTION ?= "Flashcards"
 

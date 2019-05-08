@@ -17,7 +17,19 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <graphx.h>
+
+#define FONT_HEIGHT 8
+
 void main(void) {
     /* Seed for random number generation */
     srand(rtc_Time());
+
+    gfx_Begin();
+
+    gfx_FillScreen(gfx_black);
+
+    while (!os_GetCSC());
+
+    gfx_End();
 }
